@@ -20,7 +20,7 @@ jackson_family = FamilyStructure("Jackson")
 
 jackson_family.add_member(
     {
-    "id": FamilyStructure._generate_id(),
+    "id": jackson_family._generate_id(),
     "first_name": "John",
     "age": 33,
     "lucky_numbers": [7, 13, 22]
@@ -28,7 +28,7 @@ jackson_family.add_member(
 )
 jackson_family.add_member(
     {
-    "id": FamilyStructure._generate_id(),
+    "id": jackson_family._generate_id(),
     "first_name": "Jane",
     "age": 35,
     "lucky_numbers": [10, 14, 3]
@@ -36,7 +36,7 @@ jackson_family.add_member(
 )
 jackson_family.add_member(
     {
-    "id": FamilyStructure._generate_id(),
+    "id": jackson_family._generate_id(),
     "first_name": "Jimmy",
     "age": 4,
     "lucky_numbers": [1]

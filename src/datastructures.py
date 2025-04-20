@@ -11,7 +11,7 @@ class FamilyStructure:
         self._next_id = 1
         self._members = [
             {
-                "id": self._generate_id(self._next_id),
+                "id": self._generate_id(),
                 "first_name": "John",
                 "last_name": last_name,
                 "age": 33,
